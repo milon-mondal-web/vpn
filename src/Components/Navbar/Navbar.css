@@ -1,0 +1,22 @@
+.manu_row {
+    @apply flex lg:gap-[158px] gap-[10px] flex-wrap justify-center items-center
+}
+.manu_item {
+     @apply lg:mt-[58px]  mt-[10px]
+}
+.manu_item ul {
+     @apply  flex lg:gap-[40px] gap-[20px] text-[#4F5665]  lg:text-[16px] text-[10px] font-rubik_font  lg:font-[400px] font-[200px]
+}
+.manu_item ul li {
+     @apply hover:text-[#F53838]
+}
+.manu_login  {
+     @apply  lg:mt-[58px] mt-[10px]
+}
+.manu_login ul {
+     @apply  flex lg:gap-[30px] gap-[15px] text-[#0B132A] lg:text-[16px] text-[10px] font-rubik_font  lg:font-[500px] font-[200px]
+}
+.manu_login ul li a  {
+     @apply  lg:py-[13px] lg:px-[45px] py-[7px]  px-[22px] hover:border-[#F53855] text-[#0B132A]
+      hover:text-[#F53855]  hover:border-[1px] rounded-[50px] font-rubik_font
+}

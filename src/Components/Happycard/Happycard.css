@@ -1,0 +1,29 @@
+
+.happy_text{
+ @apply flex flex-col  items-center text-center 
+}
+
+.happy_text h2{
+@apply text-[#0B132A]  lg:text-[35px] font-rubik_font font-medium lg:w-[450px] w-[300px]  lg:mb-[20px] mb-[10px]
+}
+
+.happy_text p{
+@apply text-[#0B132A]  lg:text-[16px] text-[10px] font-rubik_font font-[400px] lg:w-[555px] w-[300px] lg:mb-[60px] mb-[30px]
+}
+
+.angel_row{
+    @apply flex justify-center items-center lg:gap-[865px] gap-[25px] mb-[182px]
+}
+.bitto{
+     @apply w-[15px] h-[15px] border-[1px] rounded-[50px] bg-[#DDE0E4] hover:bg-[#F53838] 
+}
+.angel_icon{
+     @apply flex gap-[20px]
+}
+.icon1{
+    @apply px-[10px] py-[10px]  border-[1px] border-[#F53838]  rounded-[50%] text-[30px] font-[200px] hover:bg-[#F53838] text-[#F53838]  hover:text-white
+}
+.icon2{
+    @apply px-[10px] py-[10px]  border-[1px] border-[#F53838]  rounded-[50%] text-[30px] font-[200px] hover:bg-[#F53838] text-[#F53838]  hover:text-white
+}
+

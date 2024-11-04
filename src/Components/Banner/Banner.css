@@ -1,0 +1,30 @@
+.bannar_manu{
+    @apply lg:mt-[101px] mt-[30px] 
+}
+
+.banner_row{
+    @apply flex justify-center gap-[40px] flex-wrap-reverse
+}
+ .banner_text {
+    @apply  ml-[35px] lg:ml-[0px]
+ }
+.banner_text h2 {
+    @apply font-rubik_font  text-[#0B132A]  font-medium lg:text-[50px] text-[20px] lg:w-[555px] w-[205px] 
+}
+.banner_text p {
+    @apply font-rubik_font  text-[#4F5665] lg:font-[400px] font-[200px]  lg:text-[16px] text-[10px] lg:w-[555px] w-[205px]
+    lg:mt-[20px] mt-[10px] lg:mb-[50px]  mb-[10px]
+}
+.banner_text h3 a{
+    @apply font-rubik_font  text-[#FFFFFF]  bg-[#F53838] rounded-[10px] font-bold lg:text-[16px] text-[10px]
+           px-[50px] py-[10px] lg:px-[77px] lg:py-[17px]   hover:bg-white hover:text-red-600 hover:border-[#F53838] border-[1px]
+    shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] shadow-[#fdd7d7]
+}
+.banner_img img {
+    @apply lg:w-[611px] lg:h-[382px]  w-[350px] h-[250px] 
+}
+
+.counter_manu_bar{
+    @apply lg:w-[1140px] lg:h-[200px] w-[320px] h-[100]  border-[2px] rounded-[10px] shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+       m-auto border-none outline-none lg:mt-[103px] mt-[50px] lg:mb-[95px] mb-[20px]
+}

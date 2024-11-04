@@ -1,0 +1,59 @@
+.footer_box{
+    @apply lg:w-[1140px] w-[330px]   lg:h-[233px] h-[200px] border-[1px]   m-auto relative   bottom-[115px] bg-[#FFFFFF]
+}
+.box_row{
+    @apply   flex lg:gap-[340px] gap-[20px] justify-around items-center mt-[59px] lg:flex-row flex-col 
+}
+.box_text h2 {
+    @apply lg:text-[35px] text-[10px] font-rubik_font font-medium text-[#0B132A] lg:w-[370px] w-[120px] ml-[10px] lg:mb-[20px] mb-[10px]
+}
+.box_text p {
+    @apply lg:text-[16x] text-[10px] font-rubik_font font-[400px] text-[#4F5665] lg:w-[410px] w-[200px] ml-[10px]
+}
+.box_botton button  a{
+    @apply font-rubik_font  text-[#FFFFFF]  bg-[#F53838] rounded-[10px] font-bold lg:text-[16px] text-[10px]
+           px-[50px] py-[10px] lg:px-[77px] lg:py-[17px] 
+    shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] shadow-[#fdd7d7]
+    hover:bg-white hover:text-red-600 hover:border-[#F53838] border-[1px]
+}
+
+
+.footer_text_row{
+    @apply flex  justify-center lg:gap-[230px] gap-[50px] flex-wrap-reverse
+}
+
+.footer_img_head img {
+    @apply lg:w-[150px] w-[100px] h-[36px] lg:mb-[20px] mb-[10px]
+}
+.footer_img_head p  {
+    @apply lg:w-[340px]  w-[300px] lg:mb-[30px] mb-[10px] lg:text-[16px]  text-[16px] font-rubik_font font-medium text-[#4F5665]
+}
+
+.icone{
+    @apply flex gap-[20px] lg:mb-[30px] mb-[20px]
+}
+.icone_img1{
+    @apply w-[33px] h-[33px] rounded-[50%] flex justify-center items-center bg-white text-[#F53838] hover:bg-[#F53838] hover:text-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]
+}
+.icone_img2{
+    @apply w-[33px] h-[33px] rounded-[50%] flex justify-center items-center bg-white text-[#F53838] hover:bg-[#F53838] hover:text-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]
+}
+.icone_img3{
+    @apply w-[33px] h-[33px] rounded-[50%] flex justify-center items-center bg-white text-[#F53838] hover:bg-[#F53838] hover:text-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]
+}
+.footer_img_head h6 {
+    @apply  text-[#AFB5C0] lg:text-[16px] text-[10px] font-rubik_font font-normal  lg:mb-[141px] mb-[70px]
+}
+
+.footer_text_2{
+    @apply flex  lg:gap-[126px] gap-[40px] 
+}
+.product_text{
+    @apply flex-col flex 
+}
+.product_text h2{
+    @apply text-[#0B132A] lg:text-[18px] text-[13px] lg:font-medium font-bold font-rubik_font mb-[20px] 
+}
+.product_text a {
+    @apply text-[#4F5665] lg:text-[16px] text-[13px] lg:font-[400px] font-medium font-rubik_font mb-[10px]  hover:text-[#F53838]
+}

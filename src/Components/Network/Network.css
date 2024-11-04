@@ -1,0 +1,24 @@
+
+.network_manu{
+    @apply  flex justify-center  m-auto text-center
+}
+.network_row h2{
+     @apply lg:text-[35px] text-[15px] font-medium font-rubik_font text-[#0B132A] lg:mb-[20px] mb-[15px] lg:w-[354px] w-[170px] m-auto  
+}
+.network_row p {
+     @apply lg:text-[16px] text-[10px] font-medium font-rubik_font text-[#4F5665] lg:mb-[155px] mb-[50px] lg:w-[555px] w-[250px] m-auto  
+}
+.network_row  img {
+    @apply mb-[35px]
+}
+
+.network_img{
+    @apply flex justify-center m-auto lg:mb-[50px] mb-[10px] lg:mt-[35px] mt-[10px] lg:w-[1140px] lg:h-[208px] w-[320px] h-[100px] border-none border-[1px]
+}
+
+.img_col{
+    @apply flex justify-center items-center lg:gap-[50px] gap-[5px]
+}
+.img_col img {
+    @apply  lg:w-[190px] lg:h-[60px]  w-[60px] h-[40px]
+}

@@ -1,0 +1,6 @@
+.choose_text h2{
+    @apply flex justify-center  lg:mb-[20px] mb-[20px] text-[#0B132A] lg:text-[35px] text-[15px] lg:font-[400px] font-[200px] font-rubik_font
+}
+.choose_text p{
+    @apply flex justify-center m-auto text-center lg:mb-[60px] mb-[40px] text-[#4F5665] lg:text-[16px] text-[10px] lg:font-[400px] font-[100px] font-rubik_font  lg:w-[555px] w-[300px]
+}

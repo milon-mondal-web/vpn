@@ -1,0 +1,17 @@
+.provider_manu{
+    @apply lg:mb-[132px] mb-[50px]
+}
+
+.provide_row{
+    @apply flex lg:gap-[170px] gap-[50px] justify-center flex-wrap-reverse
+}
+
+.provide_text_row{
+    @apply lg:mt-[107px] mt-[50px]
+}
+.provide_text_row h2 { 
+    @apply font-rubik_font font-medium  lg:text-[35px] text-[15px] text-[#0B132A] lg:w-[384px] w-[200px] lg:mb-[20px] mb-[10px]
+}
+.provide_text_row p { 
+    @apply font-rubik_font lg:font-[400px]  font-[100px] lg:text-[15px] text-[10px] text-[#4F5665] lg:w-[400px] w-[200px]
+}
